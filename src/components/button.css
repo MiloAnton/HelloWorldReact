@@ -1,0 +1,13 @@
+.buttoncss {
+    background-color: #B884FF;
+    margin-top: 33px;
+    height: 50px;
+    width: 250px;
+    border-radius: 13px;
+    font-size: 18px;
+}
+
+.buttoncss:hover {
+    background-color:aquamarine;
+    color : black;
+}
