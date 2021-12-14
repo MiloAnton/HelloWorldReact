@@ -1,4 +1,5 @@
 import React from "react";
+import "./../App.css";
 
 export default function IconFct({value}) {
     return (
@@ -7,8 +8,9 @@ export default function IconFct({value}) {
             style={{
                 height:"200px",
                 width:"200px",
-                marginBottom:"20px"
-            }} 
+                marginBottom:"20px",
+                //animation: "App-logo-spin infinite 3s linear",
+            }}
         />
     );
 }
