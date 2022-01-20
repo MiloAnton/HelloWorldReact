@@ -1,15 +1,15 @@
 import React from "react";
 import "./../App.css";
 
-export default function IconFct({value}) {
+export default function IconFct(props) {
     return (
         <img 
-            src={`https://avatars.dicebear.com/api/micah/${value}.svg`}
+            alt="avatarResult"
+            src={`https://avatars.dicebear.com/api/${Object.values(props.type).shift()}/${props.seed}.svg`}
             style={{
                 height:"200px",
                 width:"200px",
                 marginBottom:"20px",
-                //animation: "App-logo-spin infinite 3s linear",
             }}
         />
     );
